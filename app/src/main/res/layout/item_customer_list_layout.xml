@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingBottom="25dp"
+    android:id="@+id/rowLayout"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:layout_centerInParent="true"
+        android:text="1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_userFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:layout_centerInParent="true"
+        android:text="Pooja"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_userLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:layout_centerInParent="true"
+        android:text=" Said "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_userAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=" 25"
+        android:textSize="25sp" />
+
+</LinearLayout>
